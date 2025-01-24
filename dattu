@@ -1,0 +1,17 @@
+import numpy as np
+A = [1, 2, 3, 4]
+B = np.array([4,5,6,7])  # Initialize B
+c = np.array([10, 20, 30, 40])  # Define array c
+exp = np.exp(c)
+Elog = np.log(A)
+Eabs = np.abs(c)
+Eceil = np.ceil(Elog)  # Correct function name
+Esqrt = np.sqrt(B)  # Calculate square root
+print('element in array-A=', A)
+print('element in array-B=', B)
+print('elements in array-c=', c)
+print('elements-wise square root of array-B,Esqrt=', np.round(Esqrt, 2))
+print('exponential power of array-c,Eexp=', np.round(exp, 3))
+print('log values of arrays-A,Elog=', np.round(Elog, 3))
+print('absolute values of arrays-c,Eabs=', Eabs)  # Correct variable name
+print('values often celling the log array,Eceil=', Eceil)  # Correct variable name
